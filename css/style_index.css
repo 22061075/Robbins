@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+:root {
+  --pink: #Ff7c98
+  ; 
+  --yellow: #ffeba7;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+::selection {
+  color: var(--yellow);
+  background-color: var(--pink);
+}
+::-moz-selection {
+  color: var(--yellow);
+  background-color: var(--pink);
+}
+body{
+	background-color: var(--pink);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 400vh;
+  font-family: 'Roboto', sans-serif;
+}
+.section-text-scroll {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  display: block;
+  z-index: 100;
+  text-align: center;
+  pointer-events: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 3px; 
+  font-weight: 900; 
+  color: var(--yellow);
+}
+.section-text-scroll span {
+  display: block;
+  animation: scroll 1.6s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.section-text-center {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  display: block;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+#container-c { 
+  margin: 0 auto;
+  text-align: center;
+  position: relative; 
+  width: 240px; 
+  overflow: hidden; 
+  display: inline-block; 
+  transform: rotate(89deg);
+}
+#circle { 
+  position: relative; 
+  width: 100%; 
+  padding-bottom: 100%; 
+  overflow: hidden; 
+}
+#circle text { 
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; 
+  font-weight: 700; 
+  letter-spacing: 1.3px; 
+  fill: var(--yellow);
+}
+#circle svg { 
+  position: absolute; 
+  left: -40%; 
+  top: -40%; 
+  width: 180%; 
+  height: 180%;
+}
+
+.progress-wrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px; 
+  height: 250px;
+  display: block;
+  border-radius: 50%;
+  z-index: 10;
+  pointer-events: none;
+  transition: all 200ms linear;
+}
+.progress-wrap svg { 
+  width: 224px; 
+  height: 224px;
+  margin-top: 13px;
+  margin-left: 13px;
+  transform: rotate(-10deg);
+}
+.progress-wrap svg path { 
+  fill: none; 
+}
+.progress-wrap svg.progress-circle path {
+  stroke: var(--pink);
+  stroke-width: 18;
+  box-sizing:border-box;
+  transition: all 200ms linear;
+}
+
+#section1{
+    
+  max-width: 1500px;
+  margin: 0px auto;
+}
+img{
+    position: fixed; 
+  /* width: 120px; 
+  height: 120px; */
+  animation: move1;                    
+  animation-duration:  2s;               
+  animation-fill-mode: forwards;      
+  animation-delay: 1s;               
+  opacity: 0;                             
+}
+@keyframes move1 {     
+  100% {
+      opacity: 1;     
+  }
+}
+#img1{
+    position: fixed; 
+    margin-top: 300px;
+    margin-left: 300px;
+}
+#img2{
+    position: fixed; 
+    margin-top: 600px;
+    margin-left: 10px;
+}
+#img3{
+    position: fixed; 
+    margin-top: 200px;
+    margin-left: 1000px;
+}
+#img4{
+    position: fixed; 
+    margin-top: 700px;
+    margin-left: 900px;
+}
+#img5{
+    position: fixed; 
+    margin-top: 500px;
+    margin-left: 1300px;
+}
+#img6{
+    position: fixed; 
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#img7{
+    position: fixed; 
+    margin-top: 800px;
+    margin-left: 300px;
+}
+#img8{
+    position: fixed; 
+    margin-top: 50px;
+    margin-left: 1300px;
+}
+#img9{
+    position: fixed; 
+    margin-top: 100px;
+    margin-left: 700px;
+}
+#img10{
+    position: fixed; 
+    margin-top: 800px;
+    margin-left: 1500px;
+}
