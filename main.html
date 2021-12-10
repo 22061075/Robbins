@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaskinRobbins</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style2.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Also include jQueryUI -->
+    <script type="text/javascript"
+        src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+    <script src="jquery.easing/jquery.easing.min.js"></script>
+</head>
+
+<body>
+    <h1 class="blind">Menu</h1>
+    <header>
+        <ul id="right-menu" class="flex">
+            <li><a href="#1p"><span>Index</span></a></li>
+            <li><a href="#1p"><span>Main</span></a></li>
+            <li>
+                <a href="#2p"><span>Icecream</span></a>
+            </li>
+            <li>
+                <a href="#3p"><span>Dessert</span></a>
+            </li>
+            <li>
+                <a href="#4p"><span>Cake</span></a>
+            </li>
+            <li>
+                <a href="#5p"><span>Drink</span></a>
+            </li>
+            <li>
+                <a href="#6p"><span>Video</span></a>
+            </li>
+        </ul>
+    </header>
+    <b id="btn-menu" class="btn-menu"><span></span></b>
+    <div id="side-menu" class="side-menu">
+        <ul>
+            <li><a href="#1p"><span>Main</span></a></li>
+            <li>
+                <a href="#2p"><span>Icecream</span></a>
+            </li>
+            <li>
+                <a href="#3p"><span>Dessert</span></a>
+            </li>
+            <li>
+                <a href="#4p"><span>Cake</span></a>
+            </li>
+            <li>
+                <a href="#5p"><span>Drink</span></a>
+            </li>
+            <li>
+                <a href="#6p"><span>Video</span></a>
+            </li>
+        </ul>
+        <b id="btn-close" class="btn-close"><span></span></b>
+    </div>
+
+    <div id="main">
+        <div class="wrapper">
+            <section id="p1" class="section">
+                <div class="section-content">
+                    <img id="img11" src="./free_img/menu11.png">
+                    <div id="title1">
+                        <h1 id=text1>Welcome to</h1>
+                    </div>
+                    <div id="title2">
+                        <h1 id=text2>BaskinRobbins</h1>
+                    </div>
+                </div>
+            </section>
+            <section id="2p" class="section">
+                <div class="section-content">
+                    <h2>BaskinRobbins Icecream</h2>
+                    <h3>아이스크림의 기준, 배스킨라빈스 아이스크림을 만나보세요!</h3>
+                    <div class="wrapper2">
+                        <div><img src="./free_img/ice1.png">
+                            <p>초코나무 숲 <br> <span>#크림치즈 #그린티</span></p>
+                        </div>
+                        <div><img src="./free_img/ice2.png">
+                            <p>찰떡콩떡 <br> <span>#찰떡콩떡 #콩고물</span></p>
+                        </div>
+                        <div><img src="./free_img/ice3.png">
+                            <p>치즈 고구마구마 <br> <span>#고구마 #크림치즈</span></p>
+                        </div>
+                        <div><img src="./free_img/ice4.png">
+                            <p>민트 초콜릿칩 <br> <span>#민트 #초콜릿칩</span></p>
+                        </div>
+                        <div><img src="./free_img/ice5.png">
+                            <p>파핑파핑 바나나 <br> <span>#파핑파핑바나나 #바나나</span></p>
+                        </div>
+                        <div><img src="./free_img/ice6.png">
+                            <p>사랑에 빠진 딸기 <br> <span>#사빧딸 #사랑에빠진딸기</span></p>
+                        </div>
+                        <div><img src="./free_img/ice7.png">
+                            <p>마법사의 할로윈 <br> <span>#초콜릿 #민트향</span></p>
+                        </div>
+                        <div><img src="./free_img/ice8.png">
+                            <p>체다치즈 앤 포테이토 <br> <span>#체다치즈 #감자볼</span></p>
+                        </div>
+                        <div><img src="./free_img/ice9.png">
+                            <p>월넛 <br> <span>#월넛 #호두</span></p>
+                        </div>
+                        <div><img src="./free_img/ice10.png">
+                            <p>오레오 쿠키 앤 크림 <br> <span>#오레오쿠키앤크림</span></p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="3p" class="section">
+                <div class="section-content">
+                    <h2>BaskinRobbins Dessert</h2>
+                    <h3>아이스크림을 더욱 재미있게 간편하게 즐기는 방법!</h3>
+                    <div class="banner">
+                        <nav role="navigation" class="paddle-nav">
+                            <ul>
+                                <li><button class="arrow prev"></button></li>
+                                <li><button class="arrow next"></button></li>
+                            </ul>
+                        </nav>
+                        <nav class="dot-nav">
+                            <ul>
+                                <li><span class="selected">&nbsp;</span></li>
+                                <li>
+                                    <span>&nbsp;</span>
+                                </li>
+                                <li>
+                                    <span>&nbsp;</span>
+                                </li>
+                                <li>
+                                    <span>&nbsp;</span>
+                                </li>
+                                <li>
+                                    <span>&nbsp;</span>
+                                </li>
+                                <li>
+                                    <span>&nbsp;</span>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="banner-wrap">
+                            <div class="banner-container">
+                                <div class="banner-item">
+                                    <div class="image-area flex">
+                                        <img src="./free_img/desert1.png" />
+                                        <img src="./free_img/desert2.png" />
+                                        <img src="./free_img/desert3.png" />
+                                        <img src="./free_img/desert4.png" />
+                                    </div>
+                                    <div class="component text-area">
+                                        <!-- <div class="title">케이크</div> -->
+                                        <!-- <div class="desc">아이스 모찌</div> -->
+                                    </div>
+                                </div>
+                                <div class="banner-item">
+                                    <div class="image-area flex">
+                                        <img src="./free_img/desert5.png" />
+                                        <img src="./free_img/desert6.png" />
+                                        <img src="./free_img/desert7.png" />
+                                        <img src="./free_img/desert8.png" />
+                                        <img src="./free_img/desert9.png" />
+                                    </div>
+                                    <div class="component text-area">
+                                        <!-- <div class="title">케이크</div> -->
+                                        <!-- <div class="desc">아이스 샌드</div> -->
+                                    </div>
+                                </div>
+                                <div class="banner-item">
+                                    <div class="image-area">
+                                        <img src="./free_img/cake3.png" />
+                                    </div>
+                                    <div class="component text-area">
+                                        <!-- <div class="title">케이크</div> -->
+                                        <div class="desc">아이스 마카롱</div>
+                                    </div>
+                                </div>
+                                <div class="banner-item">
+                                    <div class="image-area">
+                                        <img src="./free_img/cake4.png" />
+                                    </div>
+                                    <div class="component text-area">
+                                        <!-- <div class="title">케이크</div> -->
+                                        <div class="desc">아이스크림 롤</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="p4" class="section">
+                <div class="section-content">
+                    <h2>BaskinRobbins Cake</h2>
+                    <h3>아이와 어른이 좋아하는 아이스크림을 하나의 케이크에서 모두 즐기세요!</h3>
+
+                    <article id="drop" class="drop">
+                        <div id="flex">
+                            <div id="c1"><img id="winston" src="./free_img/cake1.png"></div>
+                        </div>
+                        <div id="dropzone"></div>
+                    </article>
+
+                    <article id="drop2" class="drop">
+                        <div id="flex">
+                            <div id="c2"><img id="winston2" src="./free_img/cake8.png"></div>
+                        </div>
+                        <div id="dropzone2"></div>
+                    </article>
+
+                    <article id="drop3" class="drop">
+                        <div id="flex">
+                            <div id="c3"><img id="winston3" src="./free_img/cake7.png"></div>
+                        </div>
+                        <div id="dropzone3"></div>
+                    </article>
+
+                    <article id="drop4" class="drop">
+                        <div id="flex">
+                            <div id="c4"><img id="winston4" src="./free_img/cake4.png"></div>
+                        </div>
+                        <div id="dropzone4"></div>
+                    </article>
+
+                    <article id="drop5" class="drop">
+                        <div id="flex">
+                            <div id="c5"><img id="winston5" src="./free_img/cake5.png"></div>
+                        </div>
+                        <div id="dropzone5"></div>
+                    </article>
+
+                    <article id="drop6" class="drop">
+                        <div id="flex">
+                            <div id="c6"><img id="winston6" src="./free_img/cake6.png"></div>
+                        </div>
+                        <div id="dropzone6"></div>
+                    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- <article id="drop">
+                    <div id="flex">
+                        <div id="c1"><img id="winston" src="./free_img/cake1.png"></div>
+                        <div id="c2"><img id="winston2" src="./free_img/cake2.png"></div>
+                        <div id="c3"><img id="winston3" src="./free_img/cake3.png"></div>
+                        <div id="c4"><img id="winston4" src="./free_img/cake4.png"></div>
+                        <div id="c5"><img id="winston5" src="./free_img/cake5.png"></div>
+                        <div id="c6"><img id="winston6" src="./free_img/cake6.png"></div>
+                        <div id="c7"><img id="winston7" src="./free_img/cake7.png"></div>
+                        <div id="c8"><img id="winston8" src="./free_img/cake8.png"></div>
+                    </div>
+                    <div id="dropzone"></div>
+                </article> -->
+
+                </div>
+            </section>
+            <section id="5p" class="section">
+
+                <div class="wrap wrapper3">
+                    <div class="section-content">
+
+                        <h2>BaskinRobbins Drink</h2>
+                        <h3>아이스크림으로 즐기는 배스킨라빈스만의 음료!</h3>
+                        <div class="photobanner">
+                            <div>
+                                <img class="first front" src="./free_img/drink.png">
+                                <img class="back1_1" src="./free_img/drink_info1.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink2.png">
+                                <img class="back2_2" src="./free_img/drink_info2.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink3.png">
+                                <img class="back3_3" src="./free_img/drink_info3.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink4.png">
+                                <img class="back4_4" src="./free_img/drink_info4.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink5.png">
+                                <img class="back5_5" src="./free_img/drink_info5.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink.png">
+                                <img class="back6_6" src="./free_img/drink_info1.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink2.png">
+                                <img class="back7_7" src="./free_img/drink_info2.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink3.png">
+                                <img class="back8_8" src="./free_img/drink_info3.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink4.png">
+                                <img class="back9_9" src="./free_img/drink_info4.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink5.png">
+                                <img class="back10_10" src="./free_img/drink_info5.png">
+                            </div>
+                        </div>
+
+                        <div class="photobanner2">
+                            <div>
+                                <img class="first front" src="./free_img/drink6.png">
+                                <img class="back1" src="./free_img/drink_info6.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink7.png">
+                                <img class="back2" src="./free_img/drink_info7.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink8.png">
+                                <img class="back3" src="./free_img/drink_info8.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink9.png">
+                                <img class="back4" src="./free_img/drink_info9.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink10.png">
+                                <img class="back5" src="./free_img/drink_info10.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink6.png">
+                                <img class="back6" src="./free_img/drink_info6.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink7.png">
+                                <img class="back7" src="./free_img/drink_info7.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink8.png">
+                                <img class="back8" src="./free_img/drink_info8.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink9.png">
+                                <img class="back9" src="./free_img/drink_info9.png">
+                            </div>
+                            <div>
+                                <img class="front" src="./free_img/drink10.png">
+                                <img class="back10" src="./free_img/drink_info10.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="6p" class="section">
+                <div class="section-content">
+                    <h2>BaskinRobbins Video</h2>
+                    <h3>2021 배스킨라빈스의 '이달의 맛' 신제품을 구경해보세요!</h3>
+
+                    <div id="aboutTab">
+
+                        <div id="tab-menu" class="tab-menu">
+                            <ul>
+                                <li><a href="#" class="selected"><span>1월</span></a></li>
+                                <li>
+                                    <a href="#"><span>2월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>3월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>4월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>5월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>6월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>7월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>8월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>9월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>10월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>11월</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>12월</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-container">
+
+                            <div class="tab-content selected">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/Zk2oiWuUEYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div class="tab-content center" id="padding">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/UfeSDzhrruU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div class="tab-content">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/gJaTYr_zPuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="tab-content center">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/EFQOb4r1i_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="tab-content">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/uChpq7C_Yac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="tab-content center">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/l7hvB-kvmFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="tab-content">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/4DWUxSFmpCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="tab-content center">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/sz25nTVZ23k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="tab-content">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/1AAJG-MoAnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="tab-content center">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/twZFeJlSAn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="tab-content">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/Lae0mymP72M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="tab-content center">
+                                <iframe width=1150 height="620" src="https://www.youtube.com/embed/C2xbfKvtRIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- <div class="video-background">
+                <div class="video-foreground">
+                    <iframe width=100% height="970" src="https://www.youtube.com/embed/Lae0mymP72M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div> -->
+            </section>
+        </div>
+
+
+
+
+        <footer id="global-footer">
+            <div class="gf-content">
+                <h2>BaskinRobbins</h2>
+                <p>Copyright ⓒ 2021 BaskinRobbins All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="./js/script_drop.js"></script>
+        <script type="text/javascript" src="./js/script2.js"></script>
+        <script src="./jquery.easing/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="./js/slider.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./js/script.js"></script>
+        <script src="./js/script_video.js" type="text/javascript"></script>
+
+</body>
+
+</html>
